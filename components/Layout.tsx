@@ -15,16 +15,17 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
     <header>
-      <nav>
+      {/* <nav>
         <Link href="/">Home</Link> | <Link href="/about">About</Link> |{' '}
         <Link href="/users">Users List</Link> |{' '}
         <a href="/api/users">Users API</a>
-      </nav>
+      </nav> */}
+      <h3>Chase Stokes GLTF/GLB Renderer</h3>
     </header>
     {children}
     <footer>
       <hr />
-      <span>I'm here to stay (Footer)</span>
+      <span>This is my footer</span>
     </footer>
   </div>
 )
