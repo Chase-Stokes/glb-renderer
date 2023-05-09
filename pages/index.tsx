@@ -3,9 +3,17 @@ import Layout from '../components/Layout'
 import ThreeJsRenderer from '../components/Renderer'
 
 const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
+  <div
+  style={{
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: '100vh', // Adjust the height as needed
+    width: '100vw', // Adjust the width as needed
+  }}
+>
     <ThreeJsRenderer />
-  </Layout>
+</div>
 )
 
 export default IndexPage

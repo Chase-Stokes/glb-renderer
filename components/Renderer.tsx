@@ -58,7 +58,8 @@ const ThreeJsRenderer = () => {
 
   return (
     <RendererContainer>
-      {file ? <Renderer file={file} /> : <FileDrop onDrop={handleFileDrop} />}
+      {file ? <Renderer file={file} /> : <FileDrop onDrop={handleFileDrop}  />}
+
     </RendererContainer>
   )
 }

@@ -31,6 +31,10 @@ const FileDrop: React.FC<FileDropProps> = ({ onDrop }) => {
       onDragOver={handleDragOver}
       onDragLeave={handleDragLeave}
       onDrop={handleDrop}
+      justifyContent="center"
+      alignItems="center"
+      width="100%"
+      height="100%"
     >
       <FlexBox col justifyContent="center" alignItems="center">
         <span>Drag and drop files here</span>
